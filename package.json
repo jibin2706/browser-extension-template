@@ -1,0 +1,16 @@
+{
+  "name": "web-extension-template",
+  "version": "0.0.1",
+  "author": "Jibin Thomas",
+  "license": "MIT",
+  "scripts": {
+    "start": "parcel watch src/manifest.json --host localhost --config @parcel/config-webextension",
+    "build": "parcel build src/manifest.json --config @parcel/config-webextension"
+  },
+  "devDependencies": {
+    "@parcel/config-webextension": "^2.7.0",
+    "@types/webextension-polyfill": "^0.9.0",
+    "parcel": "^2.7.0",
+    "webextension-polyfill": "^0.10.0"
+  }
+}

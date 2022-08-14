@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "WA Clipper",
+  "description": "",
+  "version": "0.0.1",
+  "background": {
+    "service_worker": "background.ts",
+    "type": "module"
+  },
+  "permissions": ["activeTab"],
+  "action": {
+    "default_popup": "popup/index.html"
+  }
+}
